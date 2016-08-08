@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="ios-hello-test" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>ios-hello-test</name>
+    <js-module name="ios-hello-test" src="www/test.js">
+        <clobbers target="cordova.plugins.hello-ios-plugin"/>
+    </js-module>
+    
+    <platform name="ios">
+		<config-file target="config.xml" parent="/widget">
+			<feature name="Hello">
+				<param name="ios-hello-test" value="ios-hello-test" />
+			</feature>
+		</config-file>
+        <source-file src="src/ios/test.m"/>
+    </platform>
+</plugin>

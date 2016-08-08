@@ -1,0 +1,25 @@
+{
+  "name": "iOS-HelloWorld",
+  "version": "0.0.1",
+  "description": "iOS HelloWorld",
+  "cordova": {
+    "id": "ios-hello-test",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susannegeorge/iOS-HelloWorld.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "susanne george",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susannegeorge/iOS-HelloWorld/issues"
+  },
+  "homepage": "https://github.com/susannegeorge/iOS-HelloWorld#readme"
+}
